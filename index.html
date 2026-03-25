@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Revisão</title>
 </head>
 <body>
@@ -19,9 +20,15 @@
     </header>
 
     <main>
-        
-        <h1>Nosso Título</h1>
-        <p>Nosso pequeno parágrafo</p>
+
+            <h1>Nosso Título</h1>
+            <p>Nosso pequeno parágrafo</p>
+
+            <section>
+                <h1>Nosso Título de seção </h1>
+                <p>Nosso pequeno parágrafo de seção</p>
+            </section>
+
 
         <div class="img1">
             <img src="/img/images.png" alt="HTML, CSS E JAVASCRPIT">
@@ -29,21 +36,19 @@
         
         <aside>
             <h6>Título menor</h6>
-
             <section>
-                <h1>Nosso Título de Seção lateral</h1>
-                <p>Nosso pequeno parágrafo de Seção lateral</p>
+                <h1>Nosso Título de seção lateral</h1>
+                <p>Nosso pequeno parágrafo de seção lateral</p>
             </section>
-            
         </aside>
 
-        <form action="login.html" method="post">
+        <form action="login.html" method="post" id="form1">
             <label>Login</label>
-            <input type="text" name="login" />
+            <input type="text" name="login" id="login" />
             <label>Senha</label>
-            <input type="password" name="senha" />
+            <input type="password" name="senha" id="senha" />
+            <button type="submit">Enviar</button>
         </form>
-
     </main>
     <footer>
         <nav>
